@@ -16,10 +16,14 @@ This tool is designed to test for **Insecure Direct Object References (IDOR)** v
 - Required Libraries:
   - `aiohttp`
   - `requests`
+  - `argparse`
+  - `urllib3`
+  - `asyncio`
+  - `re`
 
 To install the required libraries, run:
 ```bash
-pip install aiohttp requests
+pip install -r requirements.txt
 ```
 
 ---
@@ -63,7 +67,7 @@ python idor_detection_tool.py -u https://example.com/resource/ -p http://127.0.0
 #### Enabling Header Manipulation
 Enable interactive header modification:
 ```bash
-python idor_detection_tool.py -u https://example.com/resource/ --manipulate-headers
+python ıdordet.py -u https://example.com/resource/ --manipulate-headers
 ```
 
 ---
