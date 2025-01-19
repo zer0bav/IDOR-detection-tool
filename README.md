@@ -55,13 +55,13 @@ python idor_detection_tool.py -u https://example.com/resource/ -r 1 50
 #### Adding an Authorization Token
 Add a Bearer token for requests:
 ```bash
-python idor_detection_tool.py -u https://example.com/resource/ -r 1 50 -t YOUR_TOKEN
+python ıdordet.py -u https://example.com/resource/ -r 1 50 -t YOUR_TOKEN
 ```
 
 #### Using a Proxy
 Route requests through a proxy (e.g., Burp Suite):
 ```bash
-python idor_detection_tool.py -u https://example.com/resource/ -p http://127.0.0.1:8080
+python ıdordet.py -u https://example.com/resource/ -p http://127.0.0.1:8080
 ```
 
 #### Enabling Header Manipulation
